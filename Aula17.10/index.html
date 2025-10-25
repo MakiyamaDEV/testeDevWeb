@@ -74,7 +74,43 @@
                    onmouseout="ocultar()">
                      passe o mouse para ver o nome 
                    </button>
-               </section>
+               </section id= "sec2" class="mt-3 p-3"> 
+                 <h2>Alterando o src (source) de uma imagem</h2>
+                <button class="btn btn-success" onclick="Indo()">
+                    Indo 
+                </button>     
+                 <img  id = "Aguia" src="Aguiaindo.webp" class="img-thumbnail" alt="Aguia Indo">
+                 <button class="btn btn-danger" onclick="Voltando()">
+                    Voltando 
+                </button> 
+
+                <section class="mt-3 p-3">
+                  <h2>Editando estilo com JS</h2>
+                   <p id="texto2">Este parágrafo tem estilo editado pelo botão abaixo</p>
+                   <button class="btn btn-primary" onclick="estilizar()">
+                    Editar Estilo
+                   </button>
+                   <p id="teste">Este paragrafo será ocultado pelo botão abaixo</p>
+                   <button class="btn btn-warning mt-2" onclick="esconder()"> 
+                      Ocultar teste
+                   </button>
+                    <h2>Exibir elementos ocultos</h2>
+                    <button class="btn btn-success" onclick="ExibirParagrafo()">
+                        Veja o parágrafo secreto
+                    </button>
+                    <p id="oculto" style="display:none;">
+                        
+                        Este parágrafo esta oculto, até o click do botão acima
+
+                    </p>
+                </section>
+                 <section class="mt-3 p-3">
+                    <h2>Janela com JS</h2>
+                    <p>Clique no botão abaixo para visualizar uma mensagem.</p>
+                    <button class="btn btn-success" onclick="exibirmensagem()">
+                        Veja uma mensagem
+                    </button>
+                </section>
             </div>
         </div>
     </div>
